@@ -1,0 +1,174 @@
+:root{
+    --cor-cinza-70: #707070 ;
+    --cor-cinza-4d: #4D4D4D ;
+    --cor-dourado-b4: #B47D33 ;
+    --cor-dourado-a9: #A97339 ;
+}
+body{
+    background-color: rgb(170, 170, 170);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+   text-align: center;
+}
+
+.title-nav{
+    margin-left: 8%;
+    text-align: left;
+}
+.title-nav > span{
+    font-size: 20px;
+}
+.nav-item{
+    text-decoration: none;
+    margin: 5px;
+    transition-duration: 0.7s;
+    color: black;
+}
+.nav-item.selected{
+    color: var(--cor-dourado-a9);
+}
+.nav-item:hover{
+    font-size: 20px;
+    transition-duration: 0.7s;
+    color: var(--cor-dourado-b4);
+}
+.line{
+    color: var(--cor-cinza-70);
+    height: 1px;
+    width: 90vw;
+    background-color: var(--cor-cinza-70);
+    margin: auto;
+    margin-bottom: 5px;
+}
+main{
+    width: 90vw;
+    margin: auto;
+    margin-top: 20px;
+}
+.content{
+    text-align: center;
+    border: 3px solid var(--cor-cinza-70);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px var(--cor-cinza-4d);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.welcome-message{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+}
+footer{
+    font-size: 10px;
+    text-align: right;
+    margin-right: 5vw;
+    margin-top: 5px;
+}
+.page-title{
+    color: var(--cor-dourado-a9);
+    font-weight: bold;
+}
+.page-subtitle{
+    color: var(--cor-dourado-a9);
+    font-weight: bold;
+}
+textarea{
+    width: 80%;
+    margin: 10px;
+}
+.input-url{
+    width: 70%;
+    margin: 10px;
+}
+.btn{
+    background-color: rgb(129, 128, 128);
+    box-shadow: 2px 2px 2px var(--cor-cinza-4d);
+}
+.btn:hover{
+    background-color: var(--cor-dourado-b4); 
+}
+.image-author{
+    max-width: 80%;
+    max-height: 10%;
+}
+.table-image{
+    max-height: 150px;
+    max-width: 250px;
+}
+table{
+    margin: auto;
+ 
+}
+
+th,td{
+    color: var(--cor-dourado-a9);
+    box-shadow: 2px 2px 2px var(--cor-cinza-4d);
+    border: 2px solid var(--cor-cinza-70);
+    
+}
+td{
+    padding: 5px 40px;
+    color: black;   
+}
+.image-book{
+    max-height: 300px;
+}
+.file_manager{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('path/to/upload-icon.png');
+    background-size: cover;
+}
+.material-symbols-outlined {
+    color: var(--cor-dourado-a9);
+    position: relative;
+    top: 6px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+}
+.material-symbols-outlined:hover {
+    color: black;
+}
+.page-number{
+    font-family: "IBM-med";
+    margin-left: 0px;
+    margin-right: 17px;
+    text-align: center;
+    font-size: 23px;
+    color: var(--cor-cinza-4d);
+    border: none;
+    background-color: var(--cor-branco);
+    width: 19px; 
+    height: 31px;
+}
+.arrow-left{
+    width: 17px; 
+    height: 30px; 
+    border: none; 
+    background-color: var(--cor-branco); 
+    margin-right: 60px;
+    background-image: url("../../images/desktop/svg/setaesquerda1.svg");
+}
+.arrow-left.functional:hover{
+    background-image: url("../../images/desktop/svg/setaesquerda2.svg");
+}
+.arrow-right{
+    width: 17px; 
+    height: 30px; 
+    border: none; 
+    background-color: var(--cor-branco); 
+    margin-left: 43px;
+    background-image: url("../../images/desktop/svg/setadireita1.svg");
+}
+.arrow-right.functional:hover{
+    background-image: url("../../images/desktop/svg/setadireita2.svg");
+}
+.pag-selected{
+    color: var(--cor-dourado-b4);
+}
